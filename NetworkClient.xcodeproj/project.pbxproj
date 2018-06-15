@@ -12,6 +12,21 @@
 		C00E38D020D36B14009B1190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00E38CE20D36B14009B1190 /* Main.storyboard */; };
 		C00E38D220D36B16009B1190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00E38D120D36B15009B1190 /* Assets.xcassets */; };
 		C00E38D520D36B16009B1190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00E38D320D36B16009B1190 /* LaunchScreen.storyboard */; };
+		C00E38DD20D36B2A009B1190 /* NetworkServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38DC20D36B2A009B1190 /* NetworkServer.swift */; };
+		C00E38E120D36FAB009B1190 /* HDNetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38E020D36FAB009B1190 /* HDNetworkAPI.swift */; };
+		C00E38E620D370D3009B1190 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38E320D370D3009B1190 /* JSONParameterEncoder.swift */; };
+		C00E38E720D370D3009B1190 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38E420D370D3009B1190 /* ParameterEncoding.swift */; };
+		C00E38E820D370D3009B1190 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38E520D370D3009B1190 /* URLParameterEncoding.swift */; };
+		C00E38EA20D375C5009B1190 /* HDNetworkResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38E920D375C5009B1190 /* HDNetworkResultType.swift */; };
+		C00E38EC20D37659009B1190 /* HDNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38EB20D37659009B1190 /* HDNetwork.swift */; };
+		C00E38EE20D376A5009B1190 /* HDNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38ED20D376A5009B1190 /* HDNetworkManager.swift */; };
+		C00E38F020D38516009B1190 /* HDNetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38EF20D38516009B1190 /* HDNetworkLogger.swift */; };
+		C00E38F320D39BF3009B1190 /* HDNetworkCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38F220D39BF3009B1190 /* HDNetworkCustomer.swift */; };
+		C00E38F520D39CDB009B1190 /* HDNetworkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38F420D39CDB009B1190 /* HDNetworkTest.swift */; };
+		C00E38F720D3B90E009B1190 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38F620D3B90E009B1190 /* HTTPMethod.swift */; };
+		C00E38F920D3B997009B1190 /* HDNetworkManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38F820D3B997009B1190 /* HDNetworkManagerHelper.swift */; };
+		C00E38FB20D3B9BD009B1190 /* HDHTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38FA20D3B9BD009B1190 /* HDHTTPHeader.swift */; };
+		C00E38FD20D3B9E3009B1190 /* HDHTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00E38FC20D3B9E3009B1190 /* HDHTTPTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		C00E38D120D36B15009B1190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C00E38D420D36B16009B1190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C00E38D620D36B16009B1190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00E38DC20D36B2A009B1190 /* NetworkServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServer.swift; sourceTree = "<group>"; };
+		C00E38E020D36FAB009B1190 /* HDNetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkAPI.swift; sourceTree = "<group>"; };
+		C00E38E320D370D3009B1190 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		C00E38E420D370D3009B1190 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		C00E38E520D370D3009B1190 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		C00E38E920D375C5009B1190 /* HDNetworkResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkResultType.swift; sourceTree = "<group>"; };
+		C00E38EB20D37659009B1190 /* HDNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetwork.swift; sourceTree = "<group>"; };
+		C00E38ED20D376A5009B1190 /* HDNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkManager.swift; sourceTree = "<group>"; };
+		C00E38EF20D38516009B1190 /* HDNetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkLogger.swift; sourceTree = "<group>"; };
+		C00E38F220D39BF3009B1190 /* HDNetworkCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkCustomer.swift; sourceTree = "<group>"; };
+		C00E38F420D39CDB009B1190 /* HDNetworkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkTest.swift; sourceTree = "<group>"; };
+		C00E38F620D3B90E009B1190 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C00E38F820D3B997009B1190 /* HDNetworkManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDNetworkManagerHelper.swift; sourceTree = "<group>"; };
+		C00E38FA20D3B9BD009B1190 /* HDHTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDHTTPHeader.swift; sourceTree = "<group>"; };
+		C00E38FC20D3B9E3009B1190 /* HDHTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDHTTPTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +68,7 @@
 		C00E38BE20D36B13009B1190 = {
 			isa = PBXGroup;
 			children = (
+				C00E38DE20D36E78009B1190 /* Network */,
 				C00E38C920D36B14009B1190 /* NetworkClient */,
 				C00E38C820D36B14009B1190 /* Products */,
 			);
@@ -60,8 +91,54 @@
 				C00E38D120D36B15009B1190 /* Assets.xcassets */,
 				C00E38D320D36B16009B1190 /* LaunchScreen.storyboard */,
 				C00E38D620D36B16009B1190 /* Info.plist */,
+				C00E38DC20D36B2A009B1190 /* NetworkServer.swift */,
 			);
 			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		C00E38DE20D36E78009B1190 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C00E38E220D370AE009B1190 /* Encoding */,
+				C00E38DF20D36F7C009B1190 /* Base */,
+				C00E38F120D39BB6009B1190 /* Business */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C00E38DF20D36F7C009B1190 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C00E38E020D36FAB009B1190 /* HDNetworkAPI.swift */,
+				C00E38E920D375C5009B1190 /* HDNetworkResultType.swift */,
+				C00E38EB20D37659009B1190 /* HDNetwork.swift */,
+				C00E38ED20D376A5009B1190 /* HDNetworkManager.swift */,
+				C00E38EF20D38516009B1190 /* HDNetworkLogger.swift */,
+				C00E38F620D3B90E009B1190 /* HTTPMethod.swift */,
+				C00E38F820D3B997009B1190 /* HDNetworkManagerHelper.swift */,
+				C00E38FA20D3B9BD009B1190 /* HDHTTPHeader.swift */,
+				C00E38FC20D3B9E3009B1190 /* HDHTTPTask.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C00E38E220D370AE009B1190 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				C00E38E320D370D3009B1190 /* JSONParameterEncoder.swift */,
+				C00E38E420D370D3009B1190 /* ParameterEncoding.swift */,
+				C00E38E520D370D3009B1190 /* URLParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		C00E38F120D39BB6009B1190 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				C00E38F220D39BF3009B1190 /* HDNetworkCustomer.swift */,
+				C00E38F420D39CDB009B1190 /* HDNetworkTest.swift */,
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +212,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C00E38E720D370D3009B1190 /* ParameterEncoding.swift in Sources */,
+				C00E38E620D370D3009B1190 /* JSONParameterEncoder.swift in Sources */,
+				C00E38FD20D3B9E3009B1190 /* HDHTTPTask.swift in Sources */,
+				C00E38FB20D3B9BD009B1190 /* HDHTTPHeader.swift in Sources */,
+				C00E38F720D3B90E009B1190 /* HTTPMethod.swift in Sources */,
+				C00E38EE20D376A5009B1190 /* HDNetworkManager.swift in Sources */,
 				C00E38CD20D36B14009B1190 /* ViewController.swift in Sources */,
+				C00E38F020D38516009B1190 /* HDNetworkLogger.swift in Sources */,
+				C00E38F520D39CDB009B1190 /* HDNetworkTest.swift in Sources */,
+				C00E38F920D3B997009B1190 /* HDNetworkManagerHelper.swift in Sources */,
+				C00E38EC20D37659009B1190 /* HDNetwork.swift in Sources */,
+				C00E38F320D39BF3009B1190 /* HDNetworkCustomer.swift in Sources */,
+				C00E38EA20D375C5009B1190 /* HDNetworkResultType.swift in Sources */,
+				C00E38E120D36FAB009B1190 /* HDNetworkAPI.swift in Sources */,
+				C00E38DD20D36B2A009B1190 /* NetworkServer.swift in Sources */,
 				C00E38CB20D36B14009B1190 /* AppDelegate.swift in Sources */,
+				C00E38E820D370D3009B1190 /* URLParameterEncoding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
