@@ -2,6 +2,7 @@
 
 之前网络框架使用的是alamofire + codableAlamofire + promiseKit的方式。但是当前的工程就是相当的轻量级的工程。所以希望能将这些依赖完全的去除。
 
+
 所以此次的设计都是使用的原生的API
 
 1、NSURLSession来发起网络请求
